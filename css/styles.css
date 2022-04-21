@@ -168,9 +168,9 @@ a {
   .image-grid {
     flex-direction: row;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 30px;
     position: relative;
-    padding: 15px;
+    padding: 5px;
     top: 80px;
     flex-wrap: wrap;
   }
