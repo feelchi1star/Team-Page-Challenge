@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://feel-404-page.netlify.app/">
+    <a href="https://feelteampage.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -30,10 +30,10 @@
 
 ## Overview
 
-![screenshot](team.png)
+![screenshot](team.jpg)
 
 - Where can I see your demo?
-  You see my demo at -[404_PAGE_NOT_FOUND](https://feel-404-page.netlify.app/)
+  You see my demo at -[TEAM-PAGE-CHALLENGE](https://feelteampage.netlify.app/)
 - What was your experience?
   My exprience was really intermediate and there was really an improve.
 - What have you learned/improved?
