@@ -170,7 +170,7 @@ a {
     justify-content: flex-start;
     gap: 25px;
     position: relative;
-    padding: 6px;
+    padding: 10px;
     top: 80px;
     flex-wrap: wrap;
   }
