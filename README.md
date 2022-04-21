@@ -42,7 +42,7 @@
 ### Built With
 
 - [HTML](https://html.org/)
-- [CSS](https://w3.org/)
+- [CSS](https://css-tricks.com/)
 - [Javascript](https://javascript.com/)
 
 ## Features
