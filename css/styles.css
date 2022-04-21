@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.head-text {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  text-align: left;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+/* flex content */
+.flex-content {
+  position: relative;
+  width: 500px;
+  padding: 30px;
+}
+/* H2 Side */
+.side {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Content Dis */
+
+.content-dis {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* General Image Controller */
+.img {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 335.75px;
+  height: 449px;
+  top: 30px;
+}
+/* Individual image background */
+#img1 {
+  background-image: url(../images/photo1.png);
+}
+
+#img2 {
+  background-image: url(../images/photo2.png);
+}
+
+#img3 {
+  background-image: url(../images/photo3.png);
+}
+
+#img4 {
+  background-image: url(../images/photo4.png);
+}
+
+#img5 {
+  background-image: url(../images/photo5.png);
+}
+
+#img6 {
+  background-image: url(../images/photo6.png);
+}
+
+/* Grid */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 80px;
+  padding: 50px;
+}
+
+.even1 {
+  position: relative;
+  top: 150px;
+}
+.even2 {
+  position: relative;
+  top: 200px;
+}
+
+/* Roles  */
+.role {
+  position: relative;
+  font-family: PT Serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  top: 170px;
+  left: 180px;
+}
+/* names */
+.name {
+  position: relative;
+  top: 440px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* Footer Text */
+#footer {
+  position: relative;
+  text-align: center;
+  top: 300px;
+  padding: 50px;
+}
+
+/* achor text */
+a {
+  text-decoration: none;
+}
+/* For Small Devices  With Max width of 480px*/
+@media screen and (max-width: 480px) {
+  .flex {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .head-text {
+    padding: 10px;
+    font-size: 36px;
+  }
+  .content-dis {
+    font-size: 14px;
+  }
+  .flex-content {
+    width: 343px;
+    height: 87px;
+  }
+  /* Mobile Img */
+  .img {
+    width: 138px;
+    height: 261px;
+    top: 10px;
+  }
+
+  /* Image flex */
+  /* */
+  .image-grid {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    position: relative;
+    padding: 15px;
+    top: 80px;
+    flex-wrap: wrap;
+  }
+  .role {
+    left: 80px;
+    top: 65px;
+  }
+  .name {
+    position: relative;
+    top: 250px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .even1 {
+    top: 50px;
+  }
+  .even2 {
+    top: 50px;
+  }
+  div#img4 {
+    margin-top: 50px;
+  }
+}
+#footer {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* For Tablet Size  */
+@media screen and (min-width: 480px) and (max-width: 992px) {
+  .flex {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .img {
+    width: 170px;
+    height: 261px;
+    top: 10px;
+  }
+  .role {
+    left: 100px;
+    top: 90px;
+  }
+  .image-grid {
+    gap: 70px;
+    padding: 30px;
+    top: 80px;
+  }
+  .name {
+    font-size: 16px;
+    top: 260px;
+  }
+}
+
+/* 
+WHATSAPP ME @ +2348149484234
+FACEBOOK @ FEELCHI1STAR
+TWITTER @FEELCHI1STARCOM
+
+*/
